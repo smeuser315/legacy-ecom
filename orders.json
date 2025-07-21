@@ -1,0 +1,104 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "user_id": "usr-5d7f",
+    "session_id": "sess_xyz123",
+    "status": "completed",
+    "items": [
+      {
+        "sku": "A1",
+        "quantity": 2,
+        "price": 24.99,
+        "discount": 0.00
+      }
+    ],
+    "total": 49.98,
+    "payment_gateway": "stripe",
+    "created_at": "2023-10-05T14:48:00Z",
+    "legacy_notes": "Processed without inventory check"
+  },
+  {
+    "order_id": "ORD-1002",
+    "user_id": "usr-9a2e",
+    "session_id": "sess_abc456",
+    "status": "pending",
+    "items": [
+      {
+        "sku": "B2",
+        "quantity": 1,
+        "price": 120.50,
+        "discount": 0.00
+      }
+    ],
+    "total": 120.50,
+    "payment_gateway": "stripe",
+    "created_at": "2023-10-06T09:15:33Z",
+    "legacy_notes": "Payment timeout - requires manual intervention"
+  },
+  {
+    "order_id": "ORD-1003",
+    "user_id": "usr-5d7f",
+    "session_id": "sess_xyz124",
+    "status": "cancelled",
+    "items": [
+      {
+        "sku": "A1",
+        "quantity": 1,
+        "price": 24.99,
+        "discount": 5.00
+      },
+      {
+        "sku": "C3",
+        "quantity": 3,
+        "price": 15.75,
+        "discount": 0.00
+      }
+    ],
+    "total": 70.24,
+    "payment_gateway": "stripe",
+    "created_at": "2023-10-07T16:20:18Z",
+    "legacy_notes": "Inventory overallocation - stock not reserved"
+  },
+  {
+    "order_id": "ORD-1004",
+    "user_id": "usr-9a2e",
+    "session_id": "sess_abc457",
+    "status": "completed",
+    "items": [
+      {
+        "sku": "D4",
+        "quantity": 100,
+        "price": 20.00,
+        "discount": 2.50
+      }
+    ],
+    "total": 1950.00,
+    "payment_gateway": "stripe",
+    "created_at": "2023-10-08T11:05:42Z",
+    "legacy_notes": "Bulk order - caused 15s processing delay"
+  },
+  {
+    "order_id": "ORD-1005",
+    "user_id": "usr-5d7f",
+    "session_id": "sess_xyz125",
+    "status": "pending",
+    "items": [
+      {
+        "sku": "A1",
+        "quantity": 1,
+        "price": 24.99,
+        "discount": 0.00
+      },
+      {
+        "sku": "B2",
+        "quantity": 1,
+        "price": 120.50,
+        "discount": 10.00
+      }
+    ],
+    "total": 135.49,
+    "payment_gateway": "stripe",
+    "created_at": "2023-10-09T17:30:21Z",
+    "legacy_notes": "Session expired during checkout"
+  }
+]
