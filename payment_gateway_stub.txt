@@ -1,0 +1,10 @@
+[Stripe]
+
+API_KEY = 
+WEBHOOK_SECRET = 
+
+
+
+[Legacy]
+
+AUTHNET_API = user:pass@api.authnet.com/v1
